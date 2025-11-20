@@ -77,4 +77,4 @@ The TIS should be read with the following related documentation:
 
 ## Changelog
 
-You can find the changelog in the [excise-movement-control-system-api-tis GitHub wiki](https://github.com/hmrc/excise-movement-control-system-api-tis/wiki/Excise-Movement-Control-System-API-TIS-changelog).
+You can find the changelog in the [excise-movement-control-system-api-tis-4-2 GitHub wiki](https://github.com/hmrc/excise-movement-control-system-api-tis-4-2/wiki/excise-movement-control-system-api-tis-4-2-changelog).

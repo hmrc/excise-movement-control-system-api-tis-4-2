@@ -20,9 +20,9 @@ Python v3.9.0.
 
 ## Build message type
 
-Message types are built from the python scripts **messagetypes.py**. This script reads the **q2.html** file and extract the 
-message types from it. It will put all the result message types into the **/python/partials** directory. The directory 
-will be created if it does not exist. 
+Message types are built from the python scripts **messagetypes.py**. This script reads the **q2.html** file and extract the
+message types from it. It will put all the result message types into the **/python/partials** directory. The directory
+will be created if it does not exist.
 
 To build the message type do the following:
 
@@ -30,7 +30,7 @@ To build the message type do the following:
 2. Change the validMessageTypes array variable to list only the message types that you want to include
 3. Open a terminal window
 4. type the following command
-    
+
 ```aidl
     python messagetypes.py
 ```
@@ -40,13 +40,13 @@ To build the message type do the following:
 
 ## Build business rules
 
-The Business rules are built using the **business-rules.py** python script file. This script file reads the 
+The Business rules are built using the **business-rules.py** python script file. This script file reads the
 **business-rules.html** and extract each business rule into a file. It will put all the business rule file
 into the **/python/partials** directory. The directory will be created if it does not exist.
 
 To build the business rules do the following:
 
-1. Open a terminal window 
+1. Open a terminal window
 2. type the following command
 
 ```aidl
@@ -124,4 +124,4 @@ conditions.html.md.erb
 rules.html.md.erb
 ```
 
-3. then to view in the browser see the top level [README.md](https://github.com/hmrc/excise-movement-control-system-api-tis/blob/main/README.md)
+3. then to view in the browser see the top level [README.md](https://github.com/hmrc/excise-movement-control-system-api-tis-4-2/blob/main/README.md)
