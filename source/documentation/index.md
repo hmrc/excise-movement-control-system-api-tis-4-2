@@ -26,23 +26,6 @@ EMCS captures and processes information about the movements online, validates th
 It allows the exchange of secure online messages containing specific consignment and movement information between UK and EU trading partners.
 
 
-## Current technical specifications
-
-The Excise Movement Control System (EMCS) support documents for software developers, used from Monday 19 August 2024, can be found below.
-
-[Design Document for National Excise Applications (DDNEA) v3.14 for phase 4.1](<../downloads/phase-4.1/Design Document for National Excise Applications (DDNEA) v3.14 for phase 4.1.zip>)
-
-ZIP, 11 MB
-
-[Functional Excise System Specifications (FESS) v4.12 for phase 4.1](<../downloads/phase-4.1/Functional Excise System Specifications (FESS) v4.12 for phase 4.1.zip>)
-
-ZIP, 23 MB
-
-[Release Scope Document (RSD) v2.10 for phase 4.1](<../downloads/phase-4.1/Release Scope Document (RSD) v2.10 for phase 4.1.zip>)
-
-ZIP, 1 MB
-
-
 ## New technical specifications
 
 The new Excise Movement Control System (EMCS) support documents for software developers, that will be in use from Thursday 12 February 2026, can be found below.
