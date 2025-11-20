@@ -30,15 +30,15 @@ It allows the exchange of secure online messages containing specific consignment
 
 The new Excise Movement Control System (EMCS) support documents for software developers, that will be in use from Thursday 12 February 2026, can be found below.
 
-[Design Document for National Excise Applications (DDNEA) v3.23 for phase 4.2](<../downloads/phase-4.2/Design Document for National Excise Applications (DDNEA) v3.23 for phase 4.2.zip>)
+[Design Document for National Excise Applications (DDNEA) v3.23 for phase 4.2](<../downloads/Design Document for National Excise Applications (DDNEA) v3.23 for phase 4.2.zip>)
 
 ZIP, 7 MB
 
-[Functional Excise System Specifications (FESS) v4.22 for phase 4.2](<../downloads/phase-4.2/Functional Excise System Specifications (FESS) v4.22 for phase 4.2.zip>)
+[Functional Excise System Specifications (FESS) v4.22 for phase 4.2](<../downloads/Functional Excise System Specifications (FESS) v4.22 for phase 4.2.zip>)
 
 ZIP, 18 MB
 
-[Release Scope Document (RSD) v2.00 for phase 4.2](<../downloads/phase-4.2/Release Scope Document (RSD) v2.00 for phase 4.2.zip>)
+[Release Scope Document (RSD) v2.00 for phase 4.2](<../downloads/Release Scope Document (RSD) v2.00 for phase 4.2.zip>)
 
 ZIP, 2 MB
 
