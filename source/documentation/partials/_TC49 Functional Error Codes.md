@@ -134,10 +134,10 @@
    94
   </td>
   <td>
-   Invalid Follow Up Correlation ID/ MV Correlation ID
+   Invalid Follow Up Correlation ID
   </td>
   <td>
-   The structure of the Follow Up Correlation ID or MV Correlation ID does not conform to the specifications given in Rule R083.
+   The structure of the Follow Up Correlation ID does not conform to the specifications given in Rule R083.
   </td>
   <td>
   </td>
@@ -147,10 +147,10 @@
    95
   </td>
   <td>
-   Unknown Follow Up Correlation ID / MV Correlation ID
+   Unknown Follow Up Correlation ID
   </td>
   <td>
-   The Follow Up Correlation ID or MV Correlation ID of the received message is not known, whereas it is expected to be known.
+   The Follow Up Correlation ID of the received message is not known, whereas it is expected to be known.
   </td>
   <td>
   </td>
