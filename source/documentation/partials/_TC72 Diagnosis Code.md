@@ -42,7 +42,7 @@
    2
   </td>
   <td>
-   Body Record Unique Reference does not exist in the e-AD
+   Body Record Unique Reference does not exist in the e-AD OR No corresponding GOODS ITEM in the export declaration
   </td>
   <td>
   </td>
