@@ -4,9 +4,9 @@ weight: 1
 description: Software developers, designers, product owners or business analysts. Integrate your software with the EMCS service
 ---
 
-# EMCS technical interface specification
+# EMCS technical interface specification 4.2
 
-Last updated: October 2025
+Last updated: December 2025
 ***
 
 
@@ -72,9 +72,9 @@ The following references taken from the Release Scope Document (RSD) is a list o
 The TIS should be read with the following related documentation:
 
 - [API specification](/api-documentation/docs/api/service/excise-movement-control-system-api/1.0/oas/page)
-- [Service guide](/guides/emcs-api-service-guide/)
-- [Testing guide](/guides/emcs-api-testing-guide/)
+- [Service guide for phase 4.2](/guides/emcs-api-service-guide-4-2/)
+- [Testing guide for phase 4.2](/guides/emcs-api-testing-guide-4-2/)
 
-## Changelog
+## Release notes
 
-You can find the changelog in the [excise-movement-control-system-api-tis-4-2 GitHub wiki](https://github.com/hmrc/excise-movement-control-system-api-tis-4-2/wiki/excise-movement-control-system-api-tis-4-2-changelog).
+You can find release notes in [GitHub](https://github.com/hmrc/excise-movement-control-system-api-tis-4-2/releases).
