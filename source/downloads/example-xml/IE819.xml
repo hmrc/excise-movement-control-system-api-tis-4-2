@@ -1,0 +1,40 @@
+<ie:IE819 xmlns:ie="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE819:V3.23" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+                    <ie:Header>
+                        <tms:MessageSender>NDEA.XI</tms:MessageSender>
+                        <tms:MessageRecipient>NDEA.IT</tms:MessageRecipient>
+                        <tms:DateOfPreparation>2025-11-13</tms:DateOfPreparation>
+                        <tms:TimeOfPreparation>16:50:31.352</tms:TimeOfPreparation>
+                        <tms:MessageIdentifier>VN67PJO4KJC2QGDX</tms:MessageIdentifier>
+                        <tms:CorrelationIdentifier>MSID2-20230403173941</tms:CorrelationIdentifier>
+                    </ie:Header>
+                    <ie:Body>
+                        <ie:AlertOrRejectionOfEADESAD>
+                            <ie:Attributes>
+                                <ie:DateAndTimeOfValidationOfAlertRejection>2025-11-13T16:50:31</ie:DateAndTimeOfValidationOfAlertRejection>
+                            </ie:Attributes>
+                            <ie:ConsigneeTrader language="en">
+                                <ie:Traderid>XI30138436292</ie:Traderid>
+                                <ie:TraderName>Willsey United</ie:TraderName>
+                                <ie:StreetName>Winterthurway</ie:StreetName>
+                                <ie:Postcode>BT2 4SD</ie:Postcode>
+                                <ie:City>London</ie:City>
+                                <ie:EoriNumber>AT49-01-01-11-11-</ie:EoriNumber>
+                            </ie:ConsigneeTrader>
+                            <ie:ExciseMovement>
+                                <ie:AdministrativeReferenceCode>25IT30173191940206136</ie:AdministrativeReferenceCode>
+                                <ie:SequenceNumber>1</ie:SequenceNumber>
+                            </ie:ExciseMovement>
+                            <ie:DestinationOffice>
+                                <ie:ReferenceNumber>XI004098</ie:ReferenceNumber>
+                            </ie:DestinationOffice>
+                            <ie:AlertOrRejection>
+                                <ie:DateOfAlertOrRejection>2025-11-13</ie:DateOfAlertOrRejection>
+                                <ie:EadEsadRejectedFlag>1</ie:EadEsadRejectedFlag>
+                            </ie:AlertOrRejection>
+                            <ie:AlertOrRejectionOfEadEsadReason>
+                                <ie:AlertOrRejectionOfMovementReasonCode>1</ie:AlertOrRejectionOfMovementReasonCode>
+                                <ie:ComplementaryInformation language="en">testing</ie:ComplementaryInformation>
+                            </ie:AlertOrRejectionOfEadEsadReason>
+                        </ie:AlertOrRejectionOfEADESAD>
+                    </ie:Body>
+                </ie:IE819>

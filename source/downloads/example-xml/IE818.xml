@@ -1,0 +1,56 @@
+<body:IE818 xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE818:V3.23">
+                    <body:Header xmlns:head="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+                        <head:MessageSender>NDEA.FR</head:MessageSender>
+                        <head:MessageRecipient>NDEA.XI</head:MessageRecipient>
+                        <head:DateOfPreparation>2025-11-20</head:DateOfPreparation>
+                        <head:TimeOfPreparation>17:45:26.451</head:TimeOfPreparation>
+                        <head:MessageIdentifier>DBB30FKM2KMXI8TC</head:MessageIdentifier>
+                    </body:Header>
+                    <body:Body>
+                        <body:AcceptedOrRejectedReportOfReceiptExport>
+                            <body:Attributes>
+                                <body:DateAndTimeOfValidationOfReportOfReceiptExport>2022-10-24T14:58:03
+                                </body:DateAndTimeOfValidationOfReportOfReceiptExport>
+                            </body:Attributes>
+                            <body:ConsigneeTrader language="en">
+                                <body:Traderid>FR00000602078</body:Traderid>
+                                <body:TraderName>METEST BOND STTSTGE</body:TraderName>
+                                <body:StreetName>WHITETEST ROAD METEST CITY ESTATE</body:StreetName>
+                                <body:Postcode>BN2 4KX</body:Postcode>
+                                <body:City>STTEST, KENT</body:City>
+                            </body:ConsigneeTrader>
+                            <body:ExciseMovement>
+                                <body:AdministrativeReferenceCode>25XI00000000000047116</body:AdministrativeReferenceCode>
+                                <body:SequenceNumber>1</body:SequenceNumber>
+                            </body:ExciseMovement>
+                            <body:DeliveryPlaceTrader language="en">
+                                <body:Traderid>FR00000602081</body:Traderid>
+                                <body:TraderName>GV AS1</body:TraderName>
+                                <body:StreetName>Up View Road</body:StreetName>
+                                <body:StreetNumber>42</body:StreetNumber>
+                                <body:Postcode>BN99 1KL</body:Postcode>
+                                <body:City>Londinium</body:City>
+                            </body:DeliveryPlaceTrader>
+                            <body:DestinationOffice>
+                                <body:ReferenceNumber>IT097000</body:ReferenceNumber>
+                            </body:DestinationOffice>
+                            <body:ReportOfReceiptExport>
+                                <body:DateOfArrivalOfExciseProducts>2025-11-20</body:DateOfArrivalOfExciseProducts>
+                                <body:GlobalConclusionOfReceipt>3</body:GlobalConclusionOfReceipt>
+                                <body:ComplementaryInformation language="en">aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                                </body:ComplementaryInformation>
+                            </body:ReportOfReceiptExport>
+                            <body:BodyReportOfReceiptExport>
+                                <body:BodyRecordUniqueReference>1</body:BodyRecordUniqueReference>
+                                <body:IndicatorOfShortageOrExcess>E</body:IndicatorOfShortageOrExcess>
+                                <body:ObservedShortageOrExcess>10</body:ObservedShortageOrExcess>
+                                <body:ExciseProductCode>E410</body:ExciseProductCode>
+                                <body:UnsatisfactoryReason>
+                                    <body:UnsatisfactoryReasonCode>1</body:UnsatisfactoryReasonCode>
+                                    <body:ComplementaryInformation language="en">Very Nice Indeed
+                                    </body:ComplementaryInformation>
+                                </body:UnsatisfactoryReason>
+                            </body:BodyReportOfReceiptExport>
+                        </body:AcceptedOrRejectedReportOfReceiptExport>
+                    </body:Body>
+                </body:IE818>

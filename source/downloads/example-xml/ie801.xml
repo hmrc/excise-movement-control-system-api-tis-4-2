@@ -1,0 +1,159 @@
+<urn:IE801 xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE801:V3.23">
+    <urn:Header xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+        <tms:MessageSender>NDEA.IT</tms:MessageSender>
+        <tms:MessageRecipient>NDEA.XI</tms:MessageRecipient>
+        <tms:DateOfPreparation>2025-11-20</tms:DateOfPreparation>
+        <tms:TimeOfPreparation>11:22:57.698</tms:TimeOfPreparation>
+        <tms:MessageIdentifier>MZUSNCH75R5DESZJ</tms:MessageIdentifier>
+    </urn:Header>
+    <urn:Body>
+        <urn:EADESADContainer>
+            <urn:ConsigneeTrader language="en">
+                <urn:TraderName>AFOR KALE LTD</urn:TraderName>
+                <urn:StreetName>The Street</urn:StreetName>
+                <urn:StreetNumber>24</urn:StreetNumber>
+                <urn:Postcode>BT3 9DT</urn:Postcode>
+                <urn:City>The City</urn:City>
+                <urn:EoriNumber>1234</urn:EoriNumber>
+            </urn:ConsigneeTrader>
+            <urn:ExciseMovement>
+                <urn:AdministrativeReferenceCode>25IT32610520501573032</urn:AdministrativeReferenceCode>
+                <urn:DateAndTimeOfValidationOfEadEsad>2022-12-07T10:32:30
+                </urn:DateAndTimeOfValidationOfEadEsad>
+            </urn:ExciseMovement>
+            <urn:ConsignorTrader language="en">
+                <urn:TraderExciseNumber>IT56973827130</urn:TraderExciseNumber>
+                <urn:TraderName>Clarkys Eagles</urn:TraderName>
+                <urn:StreetName>Happy Street</urn:StreetName>
+                <urn:StreetNumber>24</urn:StreetNumber>
+                <urn:Postcode>BT1 1BG</urn:Postcode>
+                <urn:City>The City</urn:City>
+            </urn:ConsignorTrader>
+            <urn:DispatchImportOffice>
+                <urn:ReferenceNumber>GB000084</urn:ReferenceNumber>
+            </urn:DispatchImportOffice>
+            <urn:ComplementConsigneeTrader>
+                <urn:MemberStateCode>XI</urn:MemberStateCode>
+                <urn:SerialNumberOfCertificateOfExemption>XI123456
+                </urn:SerialNumberOfCertificateOfExemption>
+            </urn:ComplementConsigneeTrader>
+            <urn:DeliveryPlaceTrader language="en">
+                <urn:Traderid>XI00000602078</urn:Traderid>
+                <urn:TraderName>METEST BOND &amp; STTSTGE</urn:TraderName>
+                <urn:StreetName>WHITETEST ROAD METEST CITY ESTATE</urn:StreetName>
+                <urn:StreetNumber>12</urn:StreetNumber>
+                <urn:Postcode>BN2 4KX</urn:Postcode>
+                <urn:City>STTEST,KENT</urn:City>
+            </urn:DeliveryPlaceTrader>
+            <urn:CompetentAuthorityDispatchOffice>
+                <urn:ReferenceNumber>IT004098</urn:ReferenceNumber>
+            </urn:CompetentAuthorityDispatchOffice>
+            <urn:TransportArrangerTrader language="en">
+                <urn:VatNumber>307993645</urn:VatNumber>
+                <urn:TraderName>Transport Trader</urn:TraderName>
+                <urn:StreetName>The Street</urn:StreetName>
+                <urn:StreetNumber>24</urn:StreetNumber>
+                <urn:Postcode>AB123</urn:Postcode>
+                <urn:City>The City</urn:City>
+            </urn:TransportArrangerTrader>
+            <urn:FirstTransporterTrader language="en">
+                <urn:VatNumber>307993646</urn:VatNumber>
+                <urn:TraderName>First Transport Trader</urn:TraderName>
+                <urn:StreetName>The Street</urn:StreetName>
+                <urn:StreetNumber>24</urn:StreetNumber>
+                <urn:Postcode>AB123</urn:Postcode>
+                <urn:City>The City</urn:City>
+            </urn:FirstTransporterTrader>
+            <urn:DocumentCertificate>
+                <urn:DocumentType>A123</urn:DocumentType>
+                <urn:DocumentReference>AO123456789000001222</urn:DocumentReference>
+                <urn:DocumentDescription language="en" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+                    FAX24567389667353529
+                </urn:DocumentDescription>
+                <urn:ReferenceOfDocument language="en">AO123456789000001233
+                </urn:ReferenceOfDocument>
+            </urn:DocumentCertificate>
+            <urn:EadEsad>
+                <urn:LocalReferenceNumber>lrnie8011951348</urn:LocalReferenceNumber>
+                <urn:InvoiceNumber>INVOICE001</urn:InvoiceNumber>
+                <urn:InvoiceDate>2022-12-07</urn:InvoiceDate>
+                <urn:OriginTypeCode>2</urn:OriginTypeCode>
+                <urn:DateOfDispatch>2025-11-20</urn:DateOfDispatch>
+                <urn:TimeOfDispatch>22:37:00</urn:TimeOfDispatch>
+                <urn:UpstreamArc>25IT14037131988084142</urn:UpstreamArc>
+                <urn:ImportCustomsDeclaration>
+                    <urn:ImportCustomsDeclarationNumber>AO133</urn:ImportCustomsDeclarationNumber>
+                </urn:ImportCustomsDeclaration>
+            </urn:EadEsad>
+            <urn:HeaderEadEsad>
+                <urn:SequenceNumber>1</urn:SequenceNumber>
+                <urn:DateAndTimeOfUpdateValidation>2022-12-07T10:32:30
+                </urn:DateAndTimeOfUpdateValidation>
+                <urn:DestinationTypeCode>5</urn:DestinationTypeCode>
+                <urn:JourneyTime>D01</urn:JourneyTime>
+                <urn:TransportArrangement>3</urn:TransportArrangement>
+            </urn:HeaderEadEsad>
+            <urn:TransportMode>
+                <urn:TransportModeCode>1</urn:TransportModeCode>
+                <urn:ComplementaryInformation language="en">Test</urn:ComplementaryInformation>
+            </urn:TransportMode>
+            <urn:MovementGuarantee>
+                <urn:GuarantorTypeCode>2</urn:GuarantorTypeCode>
+                <urn:GuarantorTrader language="en">
+                    <urn:TraderExciseNumber>XIWK000467015</urn:TraderExciseNumber>
+                    <urn:TraderName>Clarkys Eagles</urn:TraderName>
+                    <urn:StreetName>Happy Street</urn:StreetName>
+                    <urn:StreetNumber>24</urn:StreetNumber>
+                    <urn:City>The City</urn:City>
+                    <urn:Postcode>BT1 1BG</urn:Postcode>
+                    <urn:VatNumber>39773615</urn:VatNumber>
+                </urn:GuarantorTrader>
+            </urn:MovementGuarantee>
+            <urn:BodyEadEsad>
+                <urn:BodyRecordUniqueReference>1</urn:BodyRecordUniqueReference>
+                <urn:ExciseProductCode>E410</urn:ExciseProductCode>
+                <urn:CnCode>27101231</urn:CnCode>
+                <urn:Quantity>100.000</urn:Quantity>
+                <urn:GrossMass>100.00</urn:GrossMass>
+                <urn:NetMass>90.00</urn:NetMass>
+                <urn:AlcoholicStrengthByVolumeInPercentage>10
+                </urn:AlcoholicStrengthByVolumeInPercentage>
+                <urn:DegreePlato>10.00</urn:DegreePlato>
+                <urn:FiscalMark language="en">TST</urn:FiscalMark>
+                <urn:FiscalMarkUsedFlag>1</urn:FiscalMarkUsedFlag>
+                <urn:DesignationOfOrigin language="en" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">AO77711144444
+                </urn:DesignationOfOrigin>
+                <urn:SizeOfProducer>250740</urn:SizeOfProducer>
+                <urn:Density>10.00</urn:Density>
+                <urn:CommercialDescription language="en" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">AOM123456
+                </urn:CommercialDescription>
+                <urn:BrandNameOfProducts language="en">AOM75</urn:BrandNameOfProducts>
+                <urn:Package>
+                    <urn:KindOfPackages>BH</urn:KindOfPackages>
+                    <urn:NumberOfPackages>2</urn:NumberOfPackages>
+                    <urn:ShippingMarks>Subhasis Swain 2</urn:ShippingMarks>
+                    <urn:CommercialSealIdentification>GB4472543A</urn:CommercialSealIdentification>
+                    <urn:SealInformation language="en" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">AOM123456
+                    </urn:SealInformation>
+                </urn:Package>
+                <urn:WineProduct>
+                    <urn:WineProductCategory>4</urn:WineProductCategory>
+                    <urn:WineGrowingZoneCode>5</urn:WineGrowingZoneCode>
+                    <urn:ThirdCountryOfOrigin>IT</urn:ThirdCountryOfOrigin>
+                    <urn:OtherInformation language="en">TEST</urn:OtherInformation>
+                    <urn:WineOperation>
+                        <urn:WineOperationCode>2</urn:WineOperationCode>
+                    </urn:WineOperation>
+                </urn:WineProduct>
+            </urn:BodyEadEsad>
+            <urn:TransportDetails>
+                <urn:TransportUnitCode>1</urn:TransportUnitCode>
+                <urn:IdentityOfTransportUnits>Transformers robots in disguise
+                </urn:IdentityOfTransportUnits>
+                <urn:CommercialSealIdentification>EU4472543A</urn:CommercialSealIdentification>
+                <urn:ComplementaryInformation language="en">Test</urn:ComplementaryInformation>
+                <urn:SealInformation language="en">AOM123456</urn:SealInformation>
+            </urn:TransportDetails>
+        </urn:EADESADContainer>
+    </urn:Body>
+</urn:IE801>

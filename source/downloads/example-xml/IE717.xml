@@ -1,0 +1,94 @@
+<urn:IE717 xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE717:V3.23" xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+                    <urn:Header>
+                        <urn1:MessageSender>NDEA.FR</urn1:MessageSender>
+                        <urn1:MessageRecipient>NDEA.XI</urn1:MessageRecipient>
+                        <urn1:DateOfPreparation>2025-11-24</urn1:DateOfPreparation>
+                        <urn1:TimeOfPreparation>11:55:53.278</urn1:TimeOfPreparation>
+                        <urn1:MessageIdentifier>OHREJ0IJBUBUS7OU</urn1:MessageIdentifier>
+                        <urn1:CorrelationIdentifier>UCMORSKG9DRETFUU</urn1:CorrelationIdentifier>
+                    </urn:Header>
+                    <urn:Body>
+                        <urn:ControlReportEnvelope>
+                            <urn:Attributes>
+                                <urn:ControlReportMessageType>1</urn:ControlReportMessageType>
+                            <urn:DateAndTimeOfValidationOfControlReport>2025-11-24T11:55:53</urn:DateAndTimeOfValidationOfControlReport></urn:Attributes>
+                            <urn:HeaderControlReport>
+                                <urn:ControlReportReference>FR6P9O7CRFQCERV1</urn:ControlReportReference>
+                                <urn:ControlOffice language="en">
+                                    <urn:ReferenceNumberOfControlOffice>FR000002
+                                    </urn:ReferenceNumberOfControlOffice>
+                                    <urn:MemberStateCode>FR</urn:MemberStateCode>
+                                    <urn:ControlOfficeName>HMRC UK South Authority</urn:ControlOfficeName>
+                                    <urn:StreetName>WHITETEST ROAD METEST CITY ESTATE</urn:StreetName>
+                                    <urn:StreetNumber>42</urn:StreetNumber>
+                                    <urn:Postcode>BN2 4KX</urn:Postcode>
+                                    <urn:City>STTEST,KENT</urn:City>
+                                    <urn:PhoneNumber>01273796301</urn:PhoneNumber>
+                                    <urn:FaxNumber>01273796301</urn:FaxNumber>
+                                    <urn:EmailAddress>test@test.com</urn:EmailAddress>
+                                </urn:ControlOffice>
+                            </urn:HeaderControlReport>
+                            <urn:ExciseMovement>
+                                <urn:AdministrativeReferenceCode>25XI00000000000051224</urn:AdministrativeReferenceCode>
+                                <urn:SequenceNumber>1</urn:SequenceNumber>
+                            </urn:ExciseMovement>
+                            <urn:ControlReport>
+                                <urn:DateOfControl>2002-06-24</urn:DateOfControl>
+                                <urn:PlaceOfControl language="en">PLACE OF CONTROL TEST</urn:PlaceOfControl>
+                                <urn:ControlType>1</urn:ControlType>
+                                <urn:ReasonForControl>2</urn:ReasonForControl>
+                                <urn:ComplementaryOriginReference language="en">COMPLEMENTARY ORIGIN REFERENCE
+                                    TEST
+                                </urn:ComplementaryOriginReference>
+                                <urn:ControlOfficerIdentity language="en">CONTROL OFFICER IDENTITY TEST
+                                </urn:ControlOfficerIdentity>
+                                <urn:GlobalControlConclusion>3</urn:GlobalControlConclusion>
+                                <urn:ControlAtArrivalRequired>0</urn:ControlAtArrivalRequired>
+                                <urn:Flag>0</urn:Flag>
+                                <urn:Comments language="en">COMMENTS TEST</urn:Comments>
+                                <urn:PerformedControlAction>
+                                    <urn:PerformedControlAction>0</urn:PerformedControlAction>
+                                    <urn:OtherControlAction language="en">OTHER CONTROL ACTION TEST
+                                    </urn:OtherControlAction>
+                                </urn:PerformedControlAction>
+                                <urn:SupportingEvidence>
+                                    <urn:IssuingAuthority language="en">ISSUTING AUTHORITY TEST
+                                    </urn:IssuingAuthority>
+                                    <urn:EvidenceTypeCode>0</urn:EvidenceTypeCode>
+                                    <urn:EvidenceTypeComplement language="en">EVIDENCE TYPE COMPLEMENT TEST
+                                    </urn:EvidenceTypeComplement>
+                                    <urn:ReferenceOfEvidence language="en">REFERENCE OF EVIDENCE TEST
+                                    </urn:ReferenceOfEvidence>
+                                    <urn:ImageOfEvidence>YmVsbGE=</urn:ImageOfEvidence>
+                                </urn:SupportingEvidence>
+                                <urn:UnsatisfactoryReason>
+                                    <urn:UnsatisfactoryReasonCode>0</urn:UnsatisfactoryReasonCode>
+                                    <urn:ComplementaryInformation language="en">COMPLEMENTARY INFORMATION TEST
+                                    </urn:ComplementaryInformation>
+                                </urn:UnsatisfactoryReason>
+                                <urn:TransportDetails>
+                                    <urn:TransportUnitCode>5</urn:TransportUnitCode>
+                                    <urn:IdentityOfTransportUnits>ASDZ7724</urn:IdentityOfTransportUnits>
+                                    <urn:CommercialSealIdentification>zxasd1</urn:CommercialSealIdentification>
+                                    <urn:SealInformation language="en">SEAL INFORMATION TEST</urn:SealInformation>
+                                    <urn:ComplementaryInformation language="en">COMPLEMENTARY INFORMATION TEST
+                                    </urn:ComplementaryInformation>
+                                </urn:TransportDetails>
+                                <urn:BodyControlReport>
+                                    <urn:BodyRecordUniqueReference>112</urn:BodyRecordUniqueReference>
+                                    <urn:DescriptionOfTheGoods>Wine Products</urn:DescriptionOfTheGoods>
+                                    <urn:CnCode>27101231</urn:CnCode>
+                                    <urn:AdditionalCode>27101242</urn:AdditionalCode>
+                                    <urn:IndicatorOfShortageOrExcess>S</urn:IndicatorOfShortageOrExcess>
+                                    <urn:ObservedShortageOrExcess>1000.000</urn:ObservedShortageOrExcess>
+                                    <urn:Comments language="en">COMMENTS TEST</urn:Comments>
+                                    <urn:UnsatisfactoryReason>
+                                        <urn:UnsatisfactoryReasonCode>0</urn:UnsatisfactoryReasonCode>
+                                        <urn:ComplementaryInformation language="en">COMPLEMENTARY INFORMATION TEST
+                                        </urn:ComplementaryInformation>
+                                    </urn:UnsatisfactoryReason>
+                                </urn:BodyControlReport>
+                            </urn:ControlReport>
+                        </urn:ControlReportEnvelope>
+                    </urn:Body>
+                </urn:IE717>

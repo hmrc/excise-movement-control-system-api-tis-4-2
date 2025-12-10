@@ -1,0 +1,62 @@
+<body:IE813 xsi:schemaLocation="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE813:V3.23 ie813.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE813:V3.23">
+                    <body:Header>
+                        <head:MessageSender xmlns:head="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">NDEA.XI</head:MessageSender>
+                        <head:MessageRecipient xmlns:head="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">NDEA.FR</head:MessageRecipient>
+                        <head:DateOfPreparation xmlns:head="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">2025-11-24</head:DateOfPreparation>
+                        <head:TimeOfPreparation xmlns:head="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">12:14:21.234</head:TimeOfPreparation>
+                        <head:MessageIdentifier xmlns:head="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">HNLVAGW5AF7LUS9F</head:MessageIdentifier>
+                    <urn:CorrelationIdentifier xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">HNLVAGW5AF7LUS9F</urn:CorrelationIdentifier></body:Header>
+                    <body:Body>
+                        <body:ChangeOfDestination>
+                            <body:Attributes>
+                                <body:DateAndTimeOfValidationOfChangeOfDestination>2009-02-15T14:10:10.00</body:DateAndTimeOfValidationOfChangeOfDestination>
+                            </body:Attributes>
+                            <body:NewTransportArrangerTrader language="en">
+                                <body:VatNumber>EMCS20046</body:VatNumber>
+                                <body:TraderName>Clarky co mun</body:TraderName>
+                                <body:StreetName>Atlanta streetAtlanta street</body:StreetName>
+                                <body:StreetNumber>342</body:StreetNumber>
+                                <body:Postcode>PO12 1PU</body:Postcode>
+                                <body:City>Portsmouth</body:City>
+                            </body:NewTransportArrangerTrader>
+                            <body:UpdateEadEsad>
+                                <body:AdministrativeReferenceCode>25XI00000000000051440</body:AdministrativeReferenceCode>
+                                <body:JourneyTime>H24</body:JourneyTime>
+                                <body:ChangedTransportArrangement>3</body:ChangedTransportArrangement>
+                                <body:SequenceNumber>2</body:SequenceNumber>
+                                <body:InvoiceDate>2009-02-13</body:InvoiceDate>
+                                <body:InvoiceNumber>8018012121</body:InvoiceNumber>
+                                <body:TransportModeCode>0</body:TransportModeCode>
+                            </body:UpdateEadEsad>
+                            <body:DestinationChanged>
+                                <body:DestinationTypeCode>1</body:DestinationTypeCode>
+                                <body:NewConsigneeTrader language="nl">
+                                    <body:Traderid>FR54609882383</body:Traderid>
+                                    <body:TraderName>AA Milne</body:TraderName>
+                                    <body:StreetName>100 acre wood</body:StreetName>
+                                    <body:StreetNumber>1</body:StreetNumber>
+                                    <body:Postcode>PO0 0HH</body:Postcode>
+                                    <body:City>Newarre</body:City>
+                                    <body:EoriNumber>Eeyore</body:EoriNumber>
+                                </body:NewConsigneeTrader>
+                                <body:DeliveryPlaceTrader language="nl">
+                                    <body:Traderid>FR00000602079</body:Traderid>
+                                    <body:TraderName>Comic Indus</body:TraderName>
+                                    <body:StreetName>Grand street</body:StreetName>
+                                    <body:StreetNumber>34</body:StreetNumber>
+                                    <body:Postcode>HJ76 7UJ</body:Postcode>
+                                    <body:City>Portaslade</body:City>
+                                </body:DeliveryPlaceTrader>
+                            </body:DestinationChanged>
+                            <body:NewTransporterTrader language="en">
+                                <body:TraderName>Clarky Untied</body:TraderName>
+                                <body:StreetName>The Street</body:StreetName>
+                                <body:Postcode>PO13 0UB</body:Postcode>
+                                <body:City>SKYBLUE</body:City>
+                            </body:NewTransporterTrader>
+                            <body:TransportDetails>
+                                <body:TransportUnitCode>5</body:TransportUnitCode>
+                            </body:TransportDetails>
+                        </body:ChangeOfDestination>
+                    </body:Body>
+                </body:IE813>

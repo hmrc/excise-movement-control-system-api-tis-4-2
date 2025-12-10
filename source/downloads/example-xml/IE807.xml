@@ -1,0 +1,27 @@
+<ie:IE807 xmlns:ie="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE807:V3.23" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+                    <ie:Header>
+                        <tms:MessageSender>NDEA.FR</tms:MessageSender>
+                        <tms:MessageRecipient>NDEA.XI</tms:MessageRecipient>
+                        <tms:DateOfPreparation>2025-11-14</tms:DateOfPreparation>
+                        <tms:TimeOfPreparation>13:08:48.259</tms:TimeOfPreparation>
+                        <tms:MessageIdentifier>FJE7P5JI1EVPPIBK</tms:MessageIdentifier>
+                    </ie:Header>
+                    <ie:Body>
+                        <ie:InterruptionOfMovement>
+                            <ie:Attributes>
+                                <ie:AdministrativeReferenceCode>25XI00000000000035774</ie:AdministrativeReferenceCode>
+                                <ie:ComplementaryInformation language="en">token</ie:ComplementaryInformation>
+                                <ie:DateAndTimeOfIssuance>2025-11-14T13:08:48.262</ie:DateAndTimeOfIssuance>
+                                <ie:ReasonForInterruptionCode>2</ie:ReasonForInterruptionCode>
+                                <ie:ReferenceNumberOfExciseOffice>IT097000</ie:ReferenceNumberOfExciseOffice>
+                                <ie:ExciseOfficerIdentification>LRN20201130080305</ie:ExciseOfficerIdentification>
+                            </ie:Attributes>
+                            <ie:ReferenceControlReport>
+                                <ie:ControlReportReference>IT20200723094658</ie:ControlReportReference>
+                            </ie:ReferenceControlReport>
+                            <ie:ReferenceEventReport>
+                                <ie:EventReportNumber>XI20717000000018</ie:EventReportNumber>
+                            </ie:ReferenceEventReport>
+                        </ie:InterruptionOfMovement>
+                    </ie:Body>
+                </ie:IE807>

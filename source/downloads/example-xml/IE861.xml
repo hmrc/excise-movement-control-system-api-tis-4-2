@@ -1,0 +1,53 @@
+<ns1:IE861 xmlns:ns1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE861:V3.23" xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+                    <ns1:Header>
+                        <urn:MessageSender>NDEA.IT</urn:MessageSender>
+                        <urn:MessageRecipient>NDEA.XI</urn:MessageRecipient>
+                        <urn:DateOfPreparation>2025-11-03</urn:DateOfPreparation>
+                        <urn:TimeOfPreparation>17:22:53.542</urn:TimeOfPreparation>
+                        <urn:MessageIdentifier>VEEBEUFTUE9REDUL</urn:MessageIdentifier>
+                    </ns1:Header>
+                    <ns1:Body>
+                        <ns1:BasisForRecoveryOfDuties>
+                            <ns1:Attributes>
+                                <ns1:DateAndTimeOfIssuance>2024-01-17T17:01:10</ns1:DateAndTimeOfIssuance>
+                            </ns1:Attributes>
+                            <ns1:ExciseMovement>
+                                <ns1:AdministrativeReferenceCode>25XI000000000002164P3</ns1:AdministrativeReferenceCode>
+                                <ns1:SequenceNumber>1</ns1:SequenceNumber>
+                            </ns1:ExciseMovement>
+                            <ns1:Analysis>
+                                <ns1:DateOfAnalysis>2024-01-01</ns1:DateOfAnalysis>
+                                <ns1:ExciseOfficerIdentification>test_ztaetpbwxtnthuxvadjptthcs^£*$s</ns1:ExciseOfficerIdentification>
+                                <ns1:OpeningOfInquiryPlannedFlag>0</ns1:OpeningOfInquiryPlannedFlag>
+                                <ns1:MemberStateCodeIncredit>XI</ns1:MemberStateCodeIncredit>
+                                <ns1:GuarantorExemptionFlag>0</ns1:GuarantorExemptionFlag>
+                            </ns1:Analysis>
+                            <ns1:BodyAnalysis>
+                                <ns1:ExciseProductCode>E410</ns1:ExciseProductCode>
+                                <ns1:BodyRecordUniqueReference>123</ns1:BodyRecordUniqueReference>
+                                <ns1:DateOfShortage>2024-01-10</ns1:DateOfShortage>
+                                <ns1:ObservedShortage>123456789012.200</ns1:ObservedShortage>
+                                <ns1:BasisQuantityForRecoveryOfDuties>123456789012.100</ns1:BasisQuantityForRecoveryOfDuties>
+                                <ns1:QuantityInitiallyDispatched>123456789012.020</ns1:QuantityInitiallyDispatched>
+                            </ns1:BodyAnalysis>
+                            <ns1:ReferenceControlReport>
+                                <ns1:ControlReportReference>XI24717000000017</ns1:ControlReportReference>
+                            </ns1:ReferenceControlReport>
+                            <ns1:ReferenceEventReport>
+                                <ns1:EventReportNumber>XI20717000000018</ns1:EventReportNumber>
+                            </ns1:ReferenceEventReport>
+                            <ns1:VerificationOffice>
+                                <ns1:ReferenceNumber>XI000002</ns1:ReferenceNumber>
+                            </ns1:VerificationOffice>
+                            <ns1:DocumentEvidence>
+                                <ns1:IssuingAuthority language="en">British Transport Police (BTP)_test</ns1:IssuingAuthority>
+                                <ns1:EvidenceTypeCode>31</ns1:EvidenceTypeCode>
+                                <ns1:EvidenceTypeComplement language="en">BTP log number and Crime number test_vbngfjhjgjghkunm,jhkluyky6586787khmyjk67867tgmfgbfjvnbrhgueryt54y65465ngjdfkvhureyt4783y684yhgrjengrjengue54yt6754yerghjdnvbjhretu4wy583u58934u84egfndbjmnfdjghrueyt4783643ytgureghjdfgnjerhtu843y73y6743uhtguerjhgjrehtu4y35743y6tu4hgjregu4jht84373t6847ghrnvbmxcnv jdshgjhdgujhdsughesuieyhrtu84rjehyu436y68y54yhgrghr</ns1:EvidenceTypeComplement>
+                                <ns1:ReferenceOfEvidence language="en">BTP log N0 999/259999 test_vbngfjhjgjghkunm,jhkluyky6586787khmyjk67867tgmfgbfjvnbrhgueryt54y65465ngjdfkvhureyt4783y684yhgrjengrjengue54yt6754yerghjdnvbjhretu4wy583u58934u84egfndbjmnfdjghrueyt4783643ytgureghjdfgnjerhtu843y73y6743uhtguerjhgjrehtu4y35743y6tu4hgjregu4jht84373t6847ghrnvbmxcnv jdshgjhdgujhdsughesuieyhrtu84rjehyu436y68y54yhgrghry5uy6854jk</ns1:ReferenceOfEvidence>
+                                <ns1:ImageOfEvidence>
+                                    L2NoaWxkOjppZTpJRTg2MS9jaGlsZDo6aWU6Qm9keS9jaGlsZDo6aWU6QmFzaXNGb3JSZWNvdmVyeU9mRHV0aWVzL2NoaWxkOjppZTpEb2N1bWVudEV2aWRlbmNlL2NoaWxkOjppZTpJbWFnZU9mRXZpZGVuY2UvY2hpbGQ6OnRleHQoKSBhdHRhY2htZW50SW5zdGFuY2Ux
+                                </ns1:ImageOfEvidence>
+                            </ns1:DocumentEvidence>
+                        </ns1:BasisForRecoveryOfDuties>
+                    </ns1:Body>
+                </ns1:IE861>

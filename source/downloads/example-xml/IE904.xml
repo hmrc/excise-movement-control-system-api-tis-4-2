@@ -1,0 +1,21 @@
+<ie:IE904 xmlns:ie="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE904:V3.23" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+    <ie:Header>
+        <tms:MessageSender>NDEA.XI</tms:MessageSender>
+        <tms:MessageRecipient>NDEA.FR</tms:MessageRecipient>
+        <tms:DateOfPreparation>2025-11-24</tms:DateOfPreparation>
+        <tms:TimeOfPreparation>12:15:00</tms:TimeOfPreparation>
+        <tms:MessageIdentifier>XI42254</tms:MessageIdentifier>
+    </ie:Header>
+    <ie:Body>
+        <ie:StatusRequest>
+            <ie:Attributes>
+                <ie:AdministrativeReferenceCode>25XI00000000000051456</ie:AdministrativeReferenceCode>
+                <ie:SequenceNumber>1</ie:SequenceNumber>
+                <ie:Status>X01</ie:Status>
+                <ie:LastReceivedMessageType>None</ie:LastReceivedMessageType>
+                <ie:StatusRequestMessageType>1</ie:StatusRequestMessageType>
+                <ie:NationalMovementInformationRequestedFlag>1</ie:NationalMovementInformationRequestedFlag>
+            </ie:Attributes>
+        </ie:StatusRequest>
+    </ie:Body>
+</ie:IE904>

@@ -1,0 +1,163 @@
+<IE815 xmlns="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE815:V3.23" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+  <Header>
+    <tms:MessageSender>NDEA.XI</tms:MessageSender>
+    <tms:MessageRecipient>NDEA.GB</tms:MessageRecipient>
+    <tms:DateOfPreparation>2025-11-18</tms:DateOfPreparation>
+    <tms:TimeOfPreparation>09:43:39.687</tms:TimeOfPreparation>
+    <tms:MessageIdentifier>ZJZLJN8IRPA7E26T4</tms:MessageIdentifier>
+    <tms:CorrelationIdentifier>cor001</tms:CorrelationIdentifier>
+  </Header>
+  <Body>
+    <SubmittedDraftOfEADESAD>
+      <Attributes>
+        <SubmissionMessageType>1</SubmissionMessageType>
+      </Attributes>
+      <ConsigneeTrader language="en">
+        <Traderid>GBWK924908680</Traderid>
+        <TraderName>AFOR KALE LTD</TraderName>
+        <StreetName>The Street</StreetName>
+        <Postcode>AT123</Postcode>
+        <City>The City</City>
+      </ConsigneeTrader>
+      <ConsignorTrader language="en">
+        <TraderExciseNumber>XIRC649326241</TraderExciseNumber>
+        <TraderName>Clarkys Eagles</TraderName>
+        <StreetName>Happy Street</StreetName>
+        <Postcode>BT1 1BG</Postcode>
+        <City>The City</City>
+      </ConsignorTrader>
+      <DispatchImportOffice>
+        <ReferenceNumber>XI004098</ReferenceNumber>
+      </DispatchImportOffice>
+      <DeliveryPlaceTrader language="en">
+        <Traderid>GB00000602078</Traderid>
+        <TraderName>METEST BOND &amp; STTSTGE</TraderName>
+        <StreetName>WHITETEST ROAD METEST CITY ESTATE</StreetName>
+        <Postcode>BN2 4KX</Postcode>
+        <City>STTEST,KENT</City>
+      </DeliveryPlaceTrader>
+      <CompetentAuthorityDispatchOffice>
+        <ReferenceNumber>XI004098</ReferenceNumber>
+      </CompetentAuthorityDispatchOffice>
+      <FirstTransporterTrader language="en">
+        <VatNumber>AO234111165661</VatNumber>
+        <TraderName>Clarkys Eagles</TraderName>
+        <StreetName>Happy Street</StreetName>
+        <Postcode>BT1 1BG</Postcode>
+        <City>The City</City>
+      </FirstTransporterTrader>
+      <HeaderEadEsad>
+        <DestinationTypeCode>1</DestinationTypeCode>
+        <JourneyTime>D01</JourneyTime>
+        <TransportArrangement>1</TransportArrangement>
+      </HeaderEadEsad>
+      <TransportMode>
+        <TransportModeCode>1</TransportModeCode>
+      </TransportMode>
+      <MovementGuarantee>
+        <GuarantorTypeCode>1</GuarantorTypeCode>
+      </MovementGuarantee>
+      <BodyEadEsad>
+        <BodyRecordUniqueReference>1</BodyRecordUniqueReference>
+        <ExciseProductCode>E410</ExciseProductCode>
+        <CnCode>27101231</CnCode>
+        <Quantity>100.000</Quantity>
+        <GrossMass>100.00</GrossMass>
+        <NetMass>90.00</NetMass>
+        <FiscalMarkUsedFlag>1</FiscalMarkUsedFlag>
+        <DesignationOfOrigin language="en">AO77711144444</DesignationOfOrigin>
+        <SizeOfProducer>250740</SizeOfProducer>
+        <Density>10.00</Density>
+        <CommercialDescription language="en">AOM123456</CommercialDescription>
+        <BrandNameOfProducts language="en">AOM75</BrandNameOfProducts>
+        <Package>
+          <KindOfPackages>BH</KindOfPackages>
+          <NumberOfPackages>2</NumberOfPackages>
+          <ShippingMarks>Subhasis Swain1</ShippingMarks>
+        </Package>
+        <Package>
+          <KindOfPackages>BH</KindOfPackages>
+          <NumberOfPackages>2</NumberOfPackages>
+          <ShippingMarks>Subhasis Swain 2</ShippingMarks>
+          <CommercialSealIdentification>GB4472543A</CommercialSealIdentification>
+          <SealInformation language="en">AOM123456</SealInformation>
+        </Package>
+      </BodyEadEsad>
+      <BodyEadEsad>
+        <BodyRecordUniqueReference>2</BodyRecordUniqueReference>
+        <ExciseProductCode>T300</ExciseProductCode>
+        <CnCode>24021000</CnCode>
+        <Quantity>6.00</Quantity>
+        <GrossMass>10.00</GrossMass>
+        <NetMass>5.00</NetMass>
+        <FiscalMarkUsedFlag>0</FiscalMarkUsedFlag>
+        <Package>
+          <KindOfPackages>PX</KindOfPackages>
+          <NumberOfPackages>1</NumberOfPackages>
+          <ShippingMarks>Subhasis Swain 2</ShippingMarks>
+          <CommercialSealIdentification>GB4472543A</CommercialSealIdentification>
+          <SealInformation language="en">AOM123456</SealInformation>
+        </Package>
+      </BodyEadEsad>
+      <BodyEadEsad>
+        <BodyRecordUniqueReference>3</BodyRecordUniqueReference>
+        <ExciseProductCode>E920</ExciseProductCode>
+        <CnCode>38260090</CnCode>
+        <Quantity>450.00</Quantity>
+        <GrossMass>600.00</GrossMass>
+        <NetMass>500.00</NetMass>
+        <FiscalMarkUsedFlag>0</FiscalMarkUsedFlag>
+        <Density>12.00</Density>
+        <Package>
+          <KindOfPackages>BA</KindOfPackages>
+          <NumberOfPackages>200</NumberOfPackages>
+          <ShippingMarks>Subhasis Swain 2</ShippingMarks>
+          <CommercialSealIdentification>GB4472543A</CommercialSealIdentification>
+          <SealInformation language="en">AOM123456</SealInformation>
+        </Package>
+      </BodyEadEsad>
+      <BodyEadEsad>
+        <BodyRecordUniqueReference>4</BodyRecordUniqueReference>
+        <ExciseProductCode>T400</ExciseProductCode>
+        <CnCode>24031910</CnCode>
+        <Quantity>150.000</Quantity>
+        <GrossMass>165.00</GrossMass>
+        <NetMass>150.00</NetMass>
+        <FiscalMarkUsedFlag>0</FiscalMarkUsedFlag>
+        <Package>
+          <KindOfPackages>CR</KindOfPackages>
+          <NumberOfPackages>1</NumberOfPackages>
+          <ShippingMarks>Subhasis Swain 2</ShippingMarks>
+          <CommercialSealIdentification>GB4472543A</CommercialSealIdentification>
+          <SealInformation language="en">AOM123456</SealInformation>
+        </Package>
+      </BodyEadEsad>
+      <EadEsadDraft>
+        <LocalReferenceNumber>lrnie8155419875</LocalReferenceNumber>
+        <InvoiceNumber>INVOICE001</InvoiceNumber>
+        <InvoiceDate>2018-04-04</InvoiceDate>
+        <OriginTypeCode>2</OriginTypeCode>
+        <DateOfDispatch>2025-12-05</DateOfDispatch>
+        <TimeOfDispatch>22:37:00</TimeOfDispatch>
+        <ImportCustomsDeclaration>
+          <ImportCustomsDeclarationNumber>lrnie8155419875</ImportCustomsDeclarationNumber>
+        </ImportCustomsDeclaration>
+      </EadEsadDraft>
+      <TransportDetails>
+        <TransportUnitCode>1</TransportUnitCode>
+        <IdentityOfTransportUnits>Transformers robots in disguise</IdentityOfTransportUnits>
+      </TransportDetails>
+      <TransportDetails>
+        <TransportUnitCode>2</TransportUnitCode>
+        <IdentityOfTransportUnits>MACHINES</IdentityOfTransportUnits>
+      </TransportDetails>
+      <TransportDetails>
+        <TransportUnitCode>3</TransportUnitCode>
+        <IdentityOfTransportUnits>MORE MACHINES</IdentityOfTransportUnits>
+        <CommercialSealIdentification>GB4472543A</CommercialSealIdentification>
+        <ComplementaryInformation language="en">BH21</ComplementaryInformation>
+        <SealInformation language="en">AOM123456</SealInformation>
+      </TransportDetails>
+    </SubmittedDraftOfEADESAD>
+  </Body>
+</IE815>

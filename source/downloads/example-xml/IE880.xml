@@ -1,0 +1,39 @@
+<ie:IE880 xmlns:ie="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE880:V3.23" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+                    <ie:Header>
+                        <tms:MessageSender>NDEA.FR</tms:MessageSender>
+                        <tms:MessageRecipient>NDEA.XI</tms:MessageRecipient>
+                        <tms:DateOfPreparation>2025-11-24</tms:DateOfPreparation>
+                        <tms:TimeOfPreparation>12:14:36.429</tms:TimeOfPreparation>
+                        <tms:MessageIdentifier>HNLVAGW5AF7LUS9F</tms:MessageIdentifier>
+                    </ie:Header>
+                    <ie:Body>
+                        <ie:ManualClosureRequest>
+                            <ie:Attributes>
+                                <ie:AdministrativeReferenceCode>25XI00000000000051440</ie:AdministrativeReferenceCode>
+                                <ie:SequenceNumber>2</ie:SequenceNumber>
+                                <ie:ManualClosureRequestReasonCode>1</ie:ManualClosureRequestReasonCode>
+                                <ie:ManualClosureRequestReasonCodeComplement language="en">Testing for Manual
+                                    Closure
+                                </ie:ManualClosureRequestReasonCodeComplement>
+                            </ie:Attributes>
+                            <ie:SupportingDocuments>
+                                <ie:SupportingDocumentDescription language="en">my supporting doc description1
+                                </ie:SupportingDocumentDescription>
+                                <ie:ReferenceOfSupportingDocument language="en">my supporting doc reference1
+                                </ie:ReferenceOfSupportingDocument>
+                                <ie:ImageOfDocument>
+                                    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
+                                </ie:ImageOfDocument>
+                                <ie:SupportingDocumentType>0</ie:SupportingDocumentType>
+                            </ie:SupportingDocuments>
+                            <ie:BodyManualClosure>
+                                <ie:BodyRecordUniqueReference>1</ie:BodyRecordUniqueReference>
+                                <ie:IndicatorOfShortageOrExcess>E</ie:IndicatorOfShortageOrExcess>
+                                <ie:ObservedShortageOrExcess>3.000</ie:ObservedShortageOrExcess>
+                                <ie:ExciseProductCode>E910</ie:ExciseProductCode>
+                                <ie:RefusedQuantity>1.000</ie:RefusedQuantity>
+                                <ie:ComplementaryInformation language="en">testing</ie:ComplementaryInformation>
+                            </ie:BodyManualClosure>
+                        </ie:ManualClosureRequest>
+                    </ie:Body>
+                </ie:IE880>
