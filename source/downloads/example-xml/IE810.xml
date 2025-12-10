@@ -1,0 +1,21 @@
+<body:IE810 xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE810:V3.23">
+                    <body:Header xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+                        <tms:MessageSender>NDEA.XI</tms:MessageSender>
+                        <tms:MessageRecipient>NDEA.IT</tms:MessageRecipient>
+                        <tms:DateOfPreparation>2025-11-14</tms:DateOfPreparation>
+                        <tms:TimeOfPreparation>13:16:13.838</tms:TimeOfPreparation>
+                        <tms:MessageIdentifier>TNWU7YGHFUPCHUTU</tms:MessageIdentifier>
+                    </body:Header>
+                    <body:Body>
+                        <body:CancellationOfEAD>
+                            <body:Attributes>
+                            </body:Attributes>
+                            <body:ExciseMovementEad>
+                                <body:AdministrativeReferenceCode>25XI00000000000035882</body:AdministrativeReferenceCode>
+                            </body:ExciseMovementEad>
+                            <body:Cancellation>
+                                <body:CancellationReasonCode>1</body:CancellationReasonCode>
+                            </body:Cancellation>
+                        </body:CancellationOfEAD>
+                    </body:Body>
+                </body:IE810>

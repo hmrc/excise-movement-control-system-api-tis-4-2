@@ -1,0 +1,34 @@
+<ie829:IE829 xmlns:ie829="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE829:V3.23">
+                  <body:Header xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23" xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE829:V3.23">
+                    <tms:MessageSender>NDEA.AT</tms:MessageSender>
+                    <tms:MessageRecipient>NDEA.XI</tms:MessageRecipient>
+                    <tms:DateOfPreparation>2025-11-24</tms:DateOfPreparation>
+                    <tms:TimeOfPreparation>12:18:33.460</tms:TimeOfPreparation>
+                    <tms:MessageIdentifier>XI42304</tms:MessageIdentifier>
+                    <tms:CorrelationIdentifier>XXZIPL60FNQXFOVK</tms:CorrelationIdentifier>
+                  </body:Header>
+                  <ie829:Body>
+                    <ie829:NotificationOfAcceptedExport>
+                      <body:Attributes xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE829:V3.23">
+                        <body:DateAndTimeOfIssuance>2023-05-20T13:39:12</body:DateAndTimeOfIssuance>
+                      </body:Attributes>
+                      <body:ConsigneeTrader language="es" xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE829:V3.23">
+                        <body:Traderid>GB123456789</body:Traderid>
+                        <body:TraderName>METEST BOND STTSTGE</body:TraderName>
+                        <body:StreetName>WHITETEST ROAD METEST CITY ESTATE</body:StreetName>
+                        <body:Postcode>BN2 4KX</body:Postcode>
+                        <body:City>STTEST, KENT</body:City>
+                      </body:ConsigneeTrader>
+                      <ie829:ExciseMovementEad>
+                        <ie829:AdministrativeReferenceCode>25XI00000000000051380</ie829:AdministrativeReferenceCode>
+                        <ie829:SequenceNumber>1</ie829:SequenceNumber>
+                      </ie829:ExciseMovementEad>
+                      <body:ExportDeclarationAcceptanceRelease xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE829:V3.23">
+                        <body:ReferenceNumberOfSenderCustomsOffice>GB000383</body:ReferenceNumberOfSenderCustomsOffice>
+                        <body:DateOfAcceptance>2023-05-20</body:DateOfAcceptance>
+                        <body:DocumentReferenceNumber>LRN20230518133824</body:DocumentReferenceNumber>
+                        <body:ExportDeclarationAcceptanceOrGoodsReleasedForExport>1</body:ExportDeclarationAcceptanceOrGoodsReleasedForExport>
+                      </body:ExportDeclarationAcceptanceRelease>
+                    </ie829:NotificationOfAcceptedExport>
+                  </ie829:Body>
+                </ie829:IE829>

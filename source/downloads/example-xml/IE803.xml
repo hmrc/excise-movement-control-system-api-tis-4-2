@@ -1,0 +1,22 @@
+<IE803 xmlns="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE803:V3.23" xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+                    <Header>
+                        <urn:MessageSender>NDEA.IT</urn:MessageSender>
+                        <urn:MessageRecipient>NDEA.XI</urn:MessageRecipient>
+                        <urn:DateOfPreparation>2025-11-20</urn:DateOfPreparation>
+                        <urn:TimeOfPreparation>11:23:12.816</urn:TimeOfPreparation>
+                        <urn:MessageIdentifier>MZUSNCH75R5DESZJ</urn:MessageIdentifier>
+                    </Header>
+                    <Body>
+                        <NotificationOfDivertedEADESAD>
+                            <ExciseNotification>
+                                <NotificationType>2</NotificationType>
+                                <NotificationDateAndTime>2025-11-20T11:23:12.816</NotificationDateAndTime>
+                                <AdministrativeReferenceCode>25IT32610520501573032</AdministrativeReferenceCode>
+                                <SequenceNumber>1</SequenceNumber>
+                            </ExciseNotification>
+                            <DownstreamArc>
+                                <AdministrativeReferenceCode>25IT14037131988084142</AdministrativeReferenceCode>
+                            </DownstreamArc>
+                        </NotificationOfDivertedEADESAD>
+                    </Body>
+                </IE803>

@@ -1,0 +1,22 @@
+<ns:IE704 xmlns:ns="http://www.govtalk.gov.uk/taxation/InternationalTrade/Excise/ie704uk/3">
+    <ns:Header>
+        <urn:MessageSender xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">NDEA.XI</urn:MessageSender>
+        <urn:MessageRecipient xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">NDEA.XI</urn:MessageRecipient>
+        <urn:DateOfPreparation xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">2025-11-24</urn:DateOfPreparation>
+        <urn:TimeOfPreparation xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">12:06:40.243</urn:TimeOfPreparation>
+        <urn:MessageIdentifier xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">XI42032</urn:MessageIdentifier>
+    </ns:Header>
+    <ns:Body>
+        <ns:GenericRefusalMessage>
+            <ns:Attributes>
+                <ns:LocalReferenceNumber>lrnie8158078261</ns:LocalReferenceNumber>
+            </ns:Attributes>
+            <ns:FunctionalError>
+                <ns:ErrorType>4402</ns:ErrorType>
+                <ns:ErrorReason>Duplicate LRN The LRN is already known and is therefore not unique according to the specified rules</ns:ErrorReason>
+                <ns:ErrorLocation>/IE815[1]/Body[1]/SubmittedDraftOfEADESAD[1]/EadEsadDraft[1]/LocalReferenceNumber[1]</ns:ErrorLocation>
+                <ns:OriginalAttributeValue>lrnie8158078261</ns:OriginalAttributeValue>
+            </ns:FunctionalError>
+        </ns:GenericRefusalMessage>
+    </ns:Body>
+</ns:IE704>

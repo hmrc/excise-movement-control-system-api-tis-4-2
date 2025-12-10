@@ -1,0 +1,20 @@
+ <ie:IE881 xmlns:ie="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE881:V3.23" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">
+                    <ie:Header>
+                        <tms:MessageSender>NDEA.XI</tms:MessageSender>
+                        <tms:MessageRecipient>NDEA.FR</tms:MessageRecipient>
+                        <tms:DateOfPreparation>2025-11-24</tms:DateOfPreparation>
+                        <tms:TimeOfPreparation>12:14:46</tms:TimeOfPreparation>
+                        <tms:MessageIdentifier>XI42249</tms:MessageIdentifier>
+                    </ie:Header>
+                    <ie:Body>
+                        <ie:ManualClosureResponse>
+                            <ie:Attributes>
+                                <ie:AdministrativeReferenceCode>25XI00000000000051440</ie:AdministrativeReferenceCode>
+                                <ie:SequenceNumber>2</ie:SequenceNumber>
+                                <ie:ManualClosureRequestReasonCode>0</ie:ManualClosureRequestReasonCode>
+                                <ie:ManualClosureRequestReasonCodeComplement language="en">Movement manually closed</ie:ManualClosureRequestReasonCodeComplement>
+                                <ie:ManualClosureRequestAccepted>1</ie:ManualClosureRequestAccepted>
+                            </ie:Attributes>
+                        </ie:ManualClosureResponse>
+                    </ie:Body>
+                </ie:IE881>

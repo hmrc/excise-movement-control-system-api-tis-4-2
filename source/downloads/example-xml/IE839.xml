@@ -1,0 +1,61 @@
+<urn:IE839 xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE839:V3.23">
+                  <body:Header xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23" xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE839:V3.23">
+                    <tms:MessageSender>NDEA.AT</tms:MessageSender>
+                    <tms:MessageRecipient>NDEA.XI</tms:MessageRecipient>
+                    <tms:DateOfPreparation>2025-11-20</tms:DateOfPreparation>
+                    <tms:TimeOfPreparation>15:29:09.345</tms:TimeOfPreparation>
+                    <tms:MessageIdentifier>XI29722</tms:MessageIdentifier>
+                    <tms:CorrelationIdentifier>TFQJOGC35YYN5TVC</tms:CorrelationIdentifier>
+                  </body:Header>
+                  <urn:Body>
+                    <urn:RefusalByCustoms>
+                      <body:Attributes xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE839:V3.23">
+                        <body:DateAndTimeOfIssuance>2023-07-17T09:30:00</body:DateAndTimeOfIssuance>
+                      </body:Attributes>
+                      <body:ConsigneeTrader language="en" xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE839:V3.23">
+                        <body:Traderid>token</body:Traderid>
+                        <body:TraderName>AFOR KALE LTD</body:TraderName>
+                        <body:StreetName>The Street</body:StreetName>
+                        <body:StreetNumber>12</body:StreetNumber>
+                        <body:Postcode>BT3 9DT</body:Postcode>
+                        <body:City>The City</body:City>
+                        <body:EoriNumber>AT49-01-01-11-11</body:EoriNumber>
+                      </body:ConsigneeTrader>
+                      <body:ExportPlaceCustomsOffice xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE839:V3.23">
+                        <body:ReferenceNumber>AT330300</body:ReferenceNumber>
+                      </body:ExportPlaceCustomsOffice>
+                      <body:Rejection xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE839:V3.23">
+                        <body:RejectionDateAndTime>2009-05-16T13:42:28</body:RejectionDateAndTime>
+                        <body:RejectionReasonCode>8</body:RejectionReasonCode>
+                      </body:Rejection>
+                      <body:ExportDeclarationInformation xmlns:body="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE839:V3.23">
+                        <body:LocalReferenceNumber>token</body:LocalReferenceNumber>
+                        <body:DocumentReferenceNumber>DOC123456</body:DocumentReferenceNumber>
+                        <body:NegativeCrosscheckValidationResults>
+                          <body:UbrCrosscheckResult>
+                            <body:AdministrativeReferenceCode>25XI00000000000046465</body:AdministrativeReferenceCode>
+                            <body:BodyRecordUniqueReference>123</body:BodyRecordUniqueReference>
+                            <body:DiagnosisCode>7</body:DiagnosisCode>
+                            <body:ValidationResult>1</body:ValidationResult>
+                            <body:RejectionReason>token</body:RejectionReason>
+                            <body:CombinedNomenclatureCodeCrosscheckResult>
+                              <body:ValidationResult>1</body:ValidationResult>
+                              <body:RejectionReason>token</body:RejectionReason>
+                            </body:CombinedNomenclatureCodeCrosscheckResult>
+                            <body:NetMassCrosscheckResult>
+                              <body:ValidationResult>1</body:ValidationResult>
+                              <body:RejectionReason>token</body:RejectionReason>
+                            </body:NetMassCrosscheckResult>
+                          </body:UbrCrosscheckResult>
+                        </body:NegativeCrosscheckValidationResults>
+                        <body:NNonDes>
+                          <body:DocumentReferenceNumber>DOC123456</body:DocumentReferenceNumber>
+                        </body:NNonDes>
+                      </body:ExportDeclarationInformation>
+                      <urn:CEadVal>
+                        <urn:AdministrativeReferenceCode>23GB00000000000000163</urn:AdministrativeReferenceCode>
+                        <urn:SequenceNumber>43</urn:SequenceNumber>
+                      </urn:CEadVal>
+                    </urn:RefusalByCustoms>
+                  </urn:Body>
+                </urn:IE839>

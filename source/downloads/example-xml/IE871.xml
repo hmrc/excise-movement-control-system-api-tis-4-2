@@ -1,0 +1,38 @@
+<ie:IE871 xmlns:ie="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE871:V3.23" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+                	<ie:Header>
+                		<tms:MessageSender>NDEA.XI</tms:MessageSender>
+                		<tms:MessageRecipient>NDEA.XI</tms:MessageRecipient>
+                		<tms:DateOfPreparation>2023-02-17</tms:DateOfPreparation>
+                		<tms:TimeOfPreparation>19:25:43</tms:TimeOfPreparation>
+                		<tms:MessageIdentifier>MSID871-20230217192543</tms:MessageIdentifier>
+                	</ie:Header>
+                	<ie:Body>
+                		<ie:ExplanationOnReasonForShortage>
+                			<ie:Attributes>
+                				<ie:SubmitterType>2</ie:SubmitterType>
+                			</ie:Attributes>
+                			<ie:ConsigneeTrader language="en">
+                				<ie:Traderid>XIWK708415963</ie:Traderid>
+                				<ie:TraderName>Clarky United</ie:TraderName>
+                				<ie:StreetName>The Street</ie:StreetName>
+                				<ie:Postcode>BT2 0ZZ</ie:Postcode>
+                				<ie:City>The City</ie:City>
+                				<ie:EoriNumber>GB123456789</ie:EoriNumber>
+                			</ie:ConsigneeTrader>
+                			<ie:ExciseMovement>
+                				<ie:AdministrativeReferenceCode>23IT00020230217192543</ie:AdministrativeReferenceCode>
+                				<ie:SequenceNumber>1</ie:SequenceNumber>
+                			</ie:ExciseMovement>
+                			<ie:Analysis>
+                				<ie:DateOfAnalysis>2023-02-17</ie:DateOfAnalysis>
+                				<ie:GlobalExplanation language="en">This is an explaination for the shortage</ie:GlobalExplanation>
+                			</ie:Analysis>
+                			<ie:BodyAnalysis>
+                				<ie:ExciseProductCode>E410</ie:ExciseProductCode>
+                				<ie:BodyRecordUniqueReference>1</ie:BodyRecordUniqueReference>
+                				<ie:Explanation language="en">An explanation</ie:Explanation>
+                				<ie:ActualQuantity>200.000</ie:ActualQuantity>
+                			</ie:BodyAnalysis>			
+                		</ie:ExplanationOnReasonForShortage>
+                	</ie:Body>
+                </ie:IE871>

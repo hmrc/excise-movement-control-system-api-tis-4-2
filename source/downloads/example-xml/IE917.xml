@@ -1,0 +1,25 @@
+<urn:IE917 xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE917:V3.23">
+                  <urn:Header>
+                    <urn1:MessageSender xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">NDEA.XI</urn1:MessageSender>
+                    <urn1:MessageRecipient xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">NDEA.IT</urn1:MessageRecipient>
+                    <urn1:DateOfPreparation xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">2025-11-24</urn1:DateOfPreparation>
+                    <urn1:TimeOfPreparation xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">09:43:16.744</urn1:TimeOfPreparation>
+                    <urn1:MessageIdentifier xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">XI38602</urn1:MessageIdentifier>
+                    <urn1:CorrelationIdentifier xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">GS0LCNJHE3TVJNOM</urn1:CorrelationIdentifier>
+                  </urn:Header>
+                  <urn:Body>
+                    <urn:XmlNegativeAcknowledgement>
+                      <urn:Attributes>
+                        <urn:AdministrativeReferenceCode>23IT00000000000190130</urn:AdministrativeReferenceCode>
+                        <urn:SequenceNumber>1</urn:SequenceNumber>
+                      </urn:Attributes>
+                      <urn:XmlError>
+                        <urn:ErrorLineNumber>94</urn:ErrorLineNumber>
+                        <urn:ErrorColumnNumber>3</urn:ErrorColumnNumber>
+                        <urn:ErrorReason>12: FATAL Error. reason:The element type "ns1:Header" must be terminated by the matching end-tag "&lt;/ns1:Header>".</urn:ErrorReason>
+                        <urn:ErrorLocation>line: 94, column: 3</urn:ErrorLocation>
+                        <urn:OriginalAttributeValue>None</urn:OriginalAttributeValue>
+                      </urn:XmlError>
+                    </urn:XmlNegativeAcknowledgement>
+                  </urn:Body>
+                </urn:IE917>

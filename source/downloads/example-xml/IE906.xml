@@ -1,0 +1,36 @@
+<urn:IE906 xmlns:urn="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:IE906:V3.23">
+                  <urn:Header>
+                    <urn1:MessageSender xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">NDEA.XI</urn1:MessageSender>
+                    <urn1:MessageRecipient xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">NDEA.GR</urn1:MessageRecipient>
+                    <urn1:DateOfPreparation xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">2025-11-24</urn1:DateOfPreparation>
+                    <urn1:TimeOfPreparation xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">12:11:32.863</urn1:TimeOfPreparation>
+                    <urn1:MessageIdentifier xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">XI42178</urn1:MessageIdentifier>
+                    <urn1:CorrelationIdentifier xmlns:urn1="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE4:TMS:V3.23">85CT2GIHYEAJMBID</urn1:CorrelationIdentifier>
+                  </urn:Header>
+                  <urn:Body>
+                    <urn:FunctionalNegativeAcknowledgement>
+                      <urn:Attributes>
+                        <urn:AdministrativeReferenceCode>25GR666562289759776P3</urn:AdministrativeReferenceCode>
+                        <urn:SequenceNumber>1</urn:SequenceNumber>
+                      </urn:Attributes>
+                      <urn:FunctionalError>
+                        <urn:ErrorType>15</urn:ErrorType>
+                        <urn:ErrorReason>group PLACEOFDISPATCHTRADER must not be present if [Origin Type Code] != 1 or [Origin Type Code] != 3</urn:ErrorReason>
+                        <urn:ErrorLocation>/urn:IE801[1]/urn:Body[1]/urn:EADESADContainer[1]/urn:PlaceOfDispatchTrader[1]</urn:ErrorLocation>
+                        <urn:OriginalAttributeValue>None</urn:OriginalAttributeValue>
+                      </urn:FunctionalError>
+                      <urn:FunctionalError>
+                        <urn:ErrorType>12</urn:ErrorType>
+                        <urn:ErrorReason>group IMPORTSAD must be present if [Origin Type Code] equals 2</urn:ErrorReason>
+                        <urn:ErrorLocation>/urn:IE801[1]/urn:Body[1]/urn:EADESADContainer[1]/urn:EadEsad[1]</urn:ErrorLocation>
+                        <urn:OriginalAttributeValue>None</urn:OriginalAttributeValue>
+                      </urn:FunctionalError>
+                      <urn:FunctionalError>
+                        <urn:ErrorType>12</urn:ErrorType>
+                        <urn:ErrorReason>box DISPATCHIMPORTOFFICE must be present if [Origin Type Code] != 1 or [Origin Type Code] != 3</urn:ErrorReason>
+                        <urn:ErrorLocation>/urn:IE801[1]/urn:Body[1]/urn:EADESADContainer[1]</urn:ErrorLocation>
+                        <urn:OriginalAttributeValue>None</urn:OriginalAttributeValue>
+                      </urn:FunctionalError>
+                    </urn:FunctionalNegativeAcknowledgement>
+                  </urn:Body>
+                </urn:IE906>
