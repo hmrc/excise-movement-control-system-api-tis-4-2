@@ -4,9 +4,9 @@ weight: 1
 description: Software developers, designers, product owners or business analysts. Integrate your software with the EMCS service
 ---
 
-# EMCS technical interface specification
+# EMCS technical interface specification 4.2
 
-Last updated: October 2025
+Last updated: December 2025
 ***
 
 
@@ -30,15 +30,15 @@ It allows the exchange of secure online messages containing specific consignment
 
 The new Excise Movement Control System (EMCS) support documents for software developers, that will be in use from Thursday 12 February 2026, can be found below.
 
-[Design Document for National Excise Applications (DDNEA) v3.23 for phase 4.2](<../downloads/Design Document for National Excise Applications (DDNEA) v3.23 for phase 4.2.zip>)
+[Design Document for National Excise Applications (DDNEA) v3.23 for phase 4.2](<../downloads/eu-docs/Design Document for National Excise Applications (DDNEA) v3.23 for phase 4.2.zip>)
 
 ZIP, 7 MB
 
-[Functional Excise System Specifications (FESS) v4.22 for phase 4.2](<../downloads/Functional Excise System Specifications (FESS) v4.22 for phase 4.2.zip>)
+[Functional Excise System Specifications (FESS) v4.22 for phase 4.2](<../downloads/eu-docs/Functional Excise System Specifications (FESS) v4.22 for phase 4.2.zip>)
 
 ZIP, 18 MB
 
-[Release Scope Document (RSD) v2.00 for phase 4.2](<../downloads/Release Scope Document (RSD) v2.00 for phase 4.2.zip>)
+[Release Scope Document (RSD) v2.00 for phase 4.2](<../downloads/eu-docs/Release Scope Document (RSD) v2.00 for phase 4.2.zip>)
 
 ZIP, 2 MB
 
@@ -72,9 +72,9 @@ The following references taken from the Release Scope Document (RSD) is a list o
 The TIS should be read with the following related documentation:
 
 - [API specification](/api-documentation/docs/api/service/excise-movement-control-system-api/1.0/oas/page)
-- [Service guide](/guides/emcs-api-service-guide/)
-- [Testing guide](/guides/emcs-api-testing-guide/)
+- [Service guide for phase 4.2](/guides/emcs-api-service-guide-4-2/)
+- [Testing guide for phase 4.2](/guides/emcs-api-testing-guide-4-2/)
 
-## Changelog
+## Release notes
 
-You can find the changelog in the [excise-movement-control-system-api-tis-4-2 GitHub wiki](https://github.com/hmrc/excise-movement-control-system-api-tis-4-2/wiki/excise-movement-control-system-api-tis-4-2-changelog).
+You can find release notes in [GitHub](https://github.com/hmrc/excise-movement-control-system-api-tis-4-2/releases).
