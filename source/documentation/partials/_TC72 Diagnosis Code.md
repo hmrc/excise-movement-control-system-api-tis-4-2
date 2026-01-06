@@ -54,7 +54,7 @@
    3
   </td>
   <td>
-   No corresponding GOODS ITEM in the export declaration
+   (reserved)
   </td>
   <td>
   </td>
@@ -78,7 +78,7 @@
    5
   </td>
   <td>
-   The destination type code of the e-AD is not export
+   (reserved)
   </td>
   <td>
   </td>
