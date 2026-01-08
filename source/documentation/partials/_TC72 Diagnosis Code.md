@@ -97,4 +97,16 @@
   <td>
   </td>
  </tr>
+ <tr>
+  <td>
+   7
+  </td>
+  <td>
+   Weight/mass do not match and CN codes do not match
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+ </tr>
 </table>
