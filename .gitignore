@@ -38,7 +38,5 @@ test-result
 tmp
 .vscode/
 vendor/
-python/__pycache__
 /public/
 build
-/python/partials
