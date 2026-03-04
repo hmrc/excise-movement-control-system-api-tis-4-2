@@ -11,7 +11,7 @@ Message type details are as follows:
     - optional (O: Optional), or
     - conditional (D: Dependent).
 - Data group nesting is shown with dashes, which means that a data group may contain not only data items but also other groups of data.
-- Links to applicable rules and conditions. As the technical interface specification is still under development, some rules and conditions without links [may be found in the existing DDNEA documentation](https://github.com/hmrc/excise-movement-control-system-api-tis-4-2/tree/main/source/downloads/eu-docs).
+- Links to applicable rules and conditions. As the technical interface specification is still under development, some rules and conditions without links [may be found in the existing DDNEA documentation](https://github.com/hmrc/excise-movement-control-system-api-tis-4-2/blob/main/source/downloads/eu-docs/Design%20Document%20for%20National%20Excise%20Applications%20(DDNEA)%20v3.23%20for%20phase%204.2.zip).
 - Header elements (XML fields that can contain other XML fields) are highlighted in **bold**.
 - Further [information about data item formats](data-item-formats.html) is available.
 
