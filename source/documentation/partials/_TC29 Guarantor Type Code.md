@@ -10,6 +10,7 @@
  </tr>
  <tr>
   <td colspan="2">
+    HMRC only allows the use of the following options listed below for the provider of the movement guarantee.
   </td>
  </tr>
 </table>
@@ -24,6 +25,18 @@
   <th>
    Remarks
   </th>
+ </tr>
+ <tr>
+  <td>
+   0
+  </td>
+  <td>
+   Guarantor not required for qualifying UK to UK movements
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
  </tr>
  <tr>
   <td>
