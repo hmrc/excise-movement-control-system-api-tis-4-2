@@ -675,6 +675,16 @@
 					<xs:documentation>Rule 18: EORI can only be entered when the destination type code relates to an export.</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
+			<xs:enumeration value="4610">
+				<xs:annotation>
+					<xs:documentation>Invalid Language Codes for Maturation Period or Age of Products</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="4611">
+				<xs:annotation>
+					<xs:documentation>Invalid Language Codes for Independent Small Producers Declaration</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
 			<xs:enumeration value="9001">
 				<xs:annotation>
 					<xs:documentation>This message cannot be processed as the Consignee is located in a Member State of the European Union.</xs:documentation>
@@ -750,7 +760,21 @@
 					<xs:documentation>Consignee is missing</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
-
+			<xs:enumeration value="9028">
+				<xs:annotation>
+					<xs:documentation>This message cannot be processed as vaping product destination type can only be a Tax warehouse or an Export</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="9029">
+				<xs:annotation>
+					<xs:documentation>Vaping products from Northern Ireland to an EU Tax warehouse, or from the EU to a Northern Ireland Tax warehouse cannot be mixed with other products</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="9030">
+				<xs:annotation>
+					<xs:documentation>For EU-NI vaping movements, the Consignor ID must be the same as the NI Consignee ID</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
 		</xs:restriction>
 	</xs:simpleType>
 </xs:schema>
