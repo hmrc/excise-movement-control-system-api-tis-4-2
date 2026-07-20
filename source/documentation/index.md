@@ -26,6 +26,13 @@ EMCS captures and processes information about the movements online, validates th
 It allows the exchange of secure online messages containing specific consignment and movement information between UK and EU trading partners.
 
 
+## Vaping Products duty (VPD)
+
+From 1 October 2026, the Vaping Products Duty (VPD) changes described in this documentation apply to movements of vaping products.
+
+If your software supports these movements, update it before 1 October 2026 to ensure it remains compatible with the Excise Movement and Control System (EMCS).
+
+
 ## New technical specifications
 
 The new Excise Movement Control System (EMCS) support documents for software developers, that will be in use from Thursday 12 February 2026, can be found below.
