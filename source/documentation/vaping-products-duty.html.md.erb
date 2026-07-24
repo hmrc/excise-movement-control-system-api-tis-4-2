@@ -1,0 +1,87 @@
+---
+title: Vaping Products Duty (VPD)
+weight: 10
+description: Section about Vaping Products Duty
+---
+# Vaping Products Duty (VPD)
+
+<%= partial 'documentation/partials/google_tag_manager_js' %>
+
+From 1 October 2026, movements of vaping products under Vaping Products Duty (VPD) must be created and managed using the Excise Movement and Control System (EMCS).
+
+This section explains the VPD changes and the updates required to ensure your software continues to work correctly from 1 October 2026.
+
+## Busines Codelists
+
+| Number   | Title                | Format |
+| -------- | -------------------- | ------ |
+| HMRCBC36 | Vaping EPC code V000 | an4    |
+| HMRCBC37 | Vaping CN Codes      | n8     |
+
+
+## Error Codes
+
+As part of the introduction of VPD products within EMCS, several new error codes have been introduced into the EMCS system. These error codes are designed to prevent the processing of invalid or non-compliant messages, thereby protecting EMCS from incorrect data and inconsistent states.
+
+The newly introduced error codes, along with their corresponding descriptions, will be used to generate the IE704 error message, in addition to the existing
+set of EMCS error codes.
+
+| Error code | Description | Requirement guidance for IE815 and IE813 messages |
+| ---------- | ----------- | ------------------------------------------------- |
+| 9028 | This message cannot be processed as vaping product destination type can only be a Tax warehouse or an Export. | Destination Type Code for vaping product can only be "1" - Tax warehouse or "6" - Export. |
+| 9029 | Vaping products from Northern Ireland to an EU Tax warehouse, or from the EU to a Northern Ireland Tax warehouse cannot be mixed with other products. | Where a vaping movement is between a Northern Ireland and an EU Trader, and the Destination Type Code is 1 - Tax warehouse, then the EPC in the movement can only be for vaping products.<br><br>If a trader intends to move vaping goods along with other excise goods in the same shipment, then a separate eAD must be created for the other excise goods. |
+| 9030 | For EU-NI vaping movements, the Consignor ID must be the same as the NI Consignee ID | For a vaping movement from an EU Trader to a Northern Ireland Tax warehouse (DTC=1), where the Northern Ireland Consignee creates the draft movement (for IE815) or a change of destination (IE813) on behalf of the EU Consignor, then the NI Consignee ID must be the same as the Consignor ID on the movement. |
+| 4437 (Existing error code to be re-used for validating Vaping dummy codes) | Invalid Member State Code | For vaping movements, Traders are expected to populate the '(CONSIGNEE) TRADER.TraderID' and '(DELIVERY PLACE) TRADER.TraderID' fields of the IE815/IE813 message for an NI-EU movement with EU dummy trader IDs in the format xxVPDyyyyyyyy (where xx is a valid EU country code, followed by 'VPD', then followed by random alphanumeric characters). Traders can populate both fields with the same ID.<br><br>Also for an EU-NI vaping movement, Traders are expected to populate the ‘(PLACE OF DISPATCH) TRADER.Reference of Tax Warehouse’ field of the IE815 message with an EU dummy trader ID in the same format described above.<br><br>If traders do not strictly follow the xxVPDyyyyyyyy format, but have the first two characters as a valid EU country code, this will still pass validation.<br><br>Validation failure will return the existing error code and message: 4437 - 'Invalid Member State Code'. |
+
+
+## Process flows
+
+### Northern Ireland to EU movement of vaping products
+
+<a href="../images/Vaping-Products-Duty-NI-to-EU.png" target="_blank"><img src="../images/Vaping-Products-Duty-NI-to-EU.png" alt="A process map describing the movement of vaping products from Northern Ireland to an EU member state"></a>
+<a href="../images/Vaping-Products-Duty-NI-to-EU.png" target="_blank">Open process map in a new tab.</a>
+
+This process describes the movement of vaping products from Northern Ireland to an EU member state.
+
+Vaping products from Northern Ireland to an EU Tax warehouse, or from the EU to a Northern Ireland Tax warehouse cannot be mixed with other products.
+
+According to this scenario, the consignor submits a draft e-AD (IE815: N_EAD_SUB) to the MSA dispatch application containing only the vaping product details of the movement. The draft e-AD (IE815: N_EAD_SUB) must contain only vaping products and include the movement guarantee, the consignee details, the destination EU member state and the place of delivery.
+
+Upon receiving the draft e-AD (IE815: N_EAD_SUB), the MSA dispatch application performs the required validations before forwarding the draft e-AD to EMCS:
+
+- If validation is successful, the movement is accepted and the MSA dispatch application issues an e-AD (IE801: C_EAD_VAL) confirming that the movement has been registered.
+- If validation is unsuccessful, a Generic Refusal Message (IE704: N_REJ_DAT) is generated by the EMCS service. This happens when an incoming message has successfully passed XML schema validation, but fails one or more business rule validations. It provides structured information describing why the submitted message cannot be processed.
+
+Before the goods are dispatched, the Northern Ireland trader may amend the place of delivery by submitting an update message (IE813: C_UPD_DAT):
+
+- If the destination remains within the EU, the movement continues as a vaping products movement.
+- If the destination changes to a non-EU destination, the movement follows the standard EMCS process applicable to the new destination.
+
+The Northern Ireland trader may also cancel the movement by submitting a cancellation message (IE810: C_CAN_DAT), subject to the standard EMCS business rules
+
+Unlike alcohol and tobacco movements, the movement is not closed by the EU consignee because Vaping Products Duty applies only within the UK.
+
+Any movement that remains open is automatically closed after 18 months.
+
+
+### EU to Northern Ireland movement of vaping products
+
+<a href="../images/Vaping-Products-Duty-EU-to-NI.png" target="_blank"><img src="../images/Vaping-Products-Duty-EU-to-NI.png" alt="A process map describing the movement of vaping products from an EU member state to Northern Ireland"></a>
+<a href="../images/Vaping-Products-Duty-EU-to-NI.png" target="_blank">Open process map in a new tab.</a>
+
+This process describes the movement of vaping products from an EU member state to Northern Ireland.
+
+Vaping products from Northern Ireland to an EU Tax warehouse, or from the EU to a Northern Ireland Tax warehouse cannot be mixed with other products.
+
+According to this scenario, the Northern Ireland trader submits a draft e-AD (IE815: N_EAD_SUB) to create the movement. The draft e-AD (IE815: N_EAD_SUB) must contain only vaping products and include the movement guarantee, the place of delivery in Northern Ireland and the originating EU member state.
+
+Upon receiving the draft e-AD (IE815: N_EAD_SUB), the MSA dispatch application performs the required validations before forwarding the draft e-AD to EMCS:
+
+- If validation is successful, the movement is accepted and the MSA dispatch application issues an e-AD (IE801: C_EAD_VAL) confirming that the movement has been registered.
+- If validation is unsuccessful, a Generic Refusal Message (IE704: N_REJ_DAT) is generated by the EMCS service. This happens when an incoming message has successfully passed XML schema validation, but fails one or more business rule validations. It provides structured information describing why the submitted message cannot be processed.
+
+Before the goods arrive, the Northern Ireland trader may amend the place of delivery by submitting an update message (IE813: C_UPD_DAT), provided that the goods continue to be delivered to a warehouse in Northern Ireland.
+
+The Northern Ireland trader may also cancel the movement by submitting a cancellation message (IE810: C_CAN_DAT), subject to the standard EMCS business rules.
+
+When the goods arrive in Northern Ireland, the consignee submits a draft Report of Receipt (IE818: C_DEL_DAT). The movement guarantee is discharged and the movement is closed using the standard EMCS process.
