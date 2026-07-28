@@ -6,7 +6,7 @@ description: Software developers, designers, product owners or business analysts
 
 # EMCS technical interface specification 4.2
 
-Last updated: December 2025
+Last updated: July 2026
 ***
 
 
